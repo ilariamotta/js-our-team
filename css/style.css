@@ -1,0 +1,31 @@
+#ruolo {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: bisque;
+}
+
+#email {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+#nome {
+    font-weight: 800;
+    color: crimson;
+}
+
+.card {
+    background-color: rgb(255, 190, 69);
+}
+
+a {
+    color: brown;
+}
+
+p {
+    color: brown;
+}
+
+body {
+    background-image: url(https://img.freepik.com/premium-photo/warm-plaster-texture-background_1194-26023.jpg);
+}
