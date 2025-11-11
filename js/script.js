@@ -38,3 +38,29 @@ const teamMembers = [
 ];
 
 
+const teamList = document.querySelector(".card-container");
+
+for (i = 0; i < teamMembers.length; i++) {
+    const curMember = teamMembers[i];
+    const { name, role, email, img } = curMember;
+    const card = `
+    <div class="card-container">
+            <div class="card mb-3" style="max-width: 500px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="${img}" style="max-width: 100px" class="img-fluid rounded-start" alt="${name}">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">${name}</h5>
+                            <p class="card-text">${role}</p>
+                            <p class="card-text">${email}</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>`
+        teamList.innerHTML += card;
+}
+
