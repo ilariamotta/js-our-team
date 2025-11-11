@@ -64,5 +64,14 @@ for (i = 0; i < teamMembers.length; i++) {
         teamList.innerHTML += card;
 }
 
+const form = document.querySelector("form")
+const addButton = document.querySelector("button")
+const nameInput = document.querySelector("#name")
+const roleInput = document.querySelector("#role")
+const emailInput = document.querySelector("#email")
+const imgInput = document.querySelector("#formfile")
 
-
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    console.log("submit")
+});
