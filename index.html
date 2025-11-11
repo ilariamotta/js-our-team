@@ -21,15 +21,31 @@
 
         <!-- inizio card -->
 
-            <div id="card-container" class="row row-cols-1 row-cols-md-3">
-            </div>
+        <div id="card-container" class="row row-cols-1 row-cols-md-3">
+        </div>
 
         <!-- fine card -->
+        <!-- inizio form -->
+         <h2 class="mt-5">Compila il form per entrare a far parte del team!</h2>
+        <form action="" class="mb-3">
+            <label for="name" class="form-label">Inserisci il tuo nome e cognome</label>
+            <input type="text" id="name" class="form-control" required>
 
+            <label for="role" class="form-label">Inserisci il tuo ruolo</label>
+            <input type="text" id="role" class="form-control" required>
+
+            <label for="email" class="form-label">Inserisci la tua mail</label>
+            <input type="text" id="email" class="form-control" required>
+
+            <label for="formFile" class="form-label">Carica la tua foto</label>
+            <input class="form-control" type="file" id="formFile">
+
+            <button type="submit" class="btn btn-danger mt-3">Invia</button>
+        </form>
+        <!-- fine form -->
     </div>
 
     <script src="./js/script.js"></script>
 </body>
 
 </html>
-
